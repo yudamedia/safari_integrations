@@ -1,0 +1,33 @@
+{
+ "based_on": "safari_company",
+ "chart_name": "Monthly Quota Usage",
+ "chart_type": "Group By",
+ "creation": "2025-07-28 06:58:10.689810",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "API Usage Log",
+ "filters_json": "[]",
+ "group_by_based_on": "safari_company",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-07-28 06:58:10.689810",
+ "modified_by": "Administrator",
+ "module": "Safari Integrations",
+ "name": "Monthly Quota Usage",
+ "number_of_groups": 10,
+ "owner": "Administrator",
+ "roles": [],
+ "time_interval": "Monthly",
+ "timeseries": 0,
+ "timespan": "Last Month",
+ "type": "Line",
+ "use_report_chart": 0,
+ "y_axis": [
+   {
+     "y_field": "name",
+     "color": "#28a745"
+   }
+ ]
+}

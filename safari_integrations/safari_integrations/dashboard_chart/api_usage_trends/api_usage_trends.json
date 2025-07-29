@@ -1,0 +1,32 @@
+{
+ "based_on": "creation",
+ "chart_name": "API Usage Trends",
+ "chart_type": "Count",
+ "creation": "2025-07-28 06:58:10.590355",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "API Usage Log",
+ "filters_json": "[]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-07-28 06:58:10.590355",
+ "modified_by": "Administrator",
+ "module": "Safari Integrations",
+ "name": "API Usage Trends",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "roles": [],
+ "time_interval": "Daily",
+ "timeseries": 0,
+ "timespan": "Last Month",
+ "type": "Line",
+ "use_report_chart": 0,
+ "y_axis": [
+   {
+     "y_field": "name",
+     "color": "#4463F0"
+   }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "actions": [],
+    "creation": "2025-01-28 10:00:00.000000",
+    "custom": 1,
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+     "api_settings_section",
+     "enable_api_logging",
+     "enable_cost_tracking",
+     "column_break_1",
+     "enable_rate_limiting",
+     "enable_encryption",
+     "quota_settings_section",
+     "default_monthly_quota",
+     "alert_threshold_percentage",
+     "column_break_2",
+     "max_daily_cost",
+     "cost_alert_threshold"
+    ],
+    "fields": [
+     {
+      "fieldname": "api_settings_section",
+      "fieldtype": "Section Break",
+      "label": "API Settings"
+     },
+     {
+      "default": "1",
+      "fieldname": "enable_api_logging",
+      "fieldtype": "Check",
+      "label": "Enable API Logging"
+     },
+     {
+      "default": "1",
+      "fieldname": "enable_cost_tracking",
+      "fieldtype": "Check",
+      "label": "Enable Cost Tracking"
+     },
+     {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+     },
+     {
+      "default": "1",
+      "fieldname": "enable_rate_limiting",
+      "fieldtype": "Check",
+      "label": "Enable Rate Limiting"
+     },
+     {
+      "default": "1",
+      "fieldname": "enable_encryption",
+      "fieldtype": "Check",
+      "label": "Enable Credential Encryption"
+     },
+     {
+      "fieldname": "quota_settings_section",
+      "fieldtype": "Section Break",
+      "label": "Quota & Alert Settings"
+     },
+     {
+      "default": "1000",
+      "fieldname": "default_monthly_quota",
+      "fieldtype": "Int",
+      "label": "Default Monthly Quota"
+     },
+     {
+      "default": "80",
+      "fieldname": "alert_threshold_percentage",
+      "fieldtype": "Int",
+      "label": "Alert Threshold %"
+     },
+     {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+     },
+     {
+      "default": "100",
+      "fieldname": "max_daily_cost",
+      "fieldtype": "Currency",
+      "label": "Max Daily Cost Alert"
+     },
+     {
+      "default": "50",
+      "fieldname": "cost_alert_threshold",
+      "fieldtype": "Currency",
+      "label": "Cost Alert Threshold"
+     }
+    ],
+    "index_web_pages_for_search": 1,
+    "issingle": 1,
+    "links": [],
+    "modified": "2025-01-28 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Safari Integrations",
+    "name": "Integration Settings",
+    "owner": "Administrator",
+    "permissions": [
+     {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "print": 1,
+      "read": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+     }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1
+   }

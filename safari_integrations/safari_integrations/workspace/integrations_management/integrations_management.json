@@ -1,0 +1,76 @@
+{
+ "charts": [
+  {
+   "chart_name": "API Usage Trends",
+   "label": "API Usage Trends"
+  },
+  {
+   "chart_name": "Cost by Provider",
+   "label": "Cost by Provider"
+  },
+  {
+   "chart_name": "Monthly Quota Usage",
+   "label": "Monthly Quota Usage"
+  }
+ ],
+ "content": "[{\"id\":\"0hv62JJz2Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active API Providers\",\"col\":3}},{\"id\":\"pOYJppd5U6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total API Calls Today\",\"col\":3}},{\"id\":\"emcj2TlGhu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Monthly API Costs\",\"col\":3}},{\"id\":\"UPfVjIEp5L\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Companies with Access\",\"col\":3}},{\"id\":\"Kcir4CkKYN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New API Provider\",\"col\":6}},{\"id\":\"o1vLwO_qQt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Company API Access\",\"col\":6}},{\"id\":\"7-jU8QSDTk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"API Usage Trends\",\"col\":12}},{\"id\":\"HzVm461gAb\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Cost by Provider\",\"col\":6}},{\"id\":\"RZVAYqzMHk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Monthly Quota Usage\",\"col\":6}}]",
+ "creation": "2025-07-28 08:05:06.922938",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "compass-drafting",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Integrations Management",
+ "links": [],
+ "modified": "2025-07-29 04:57:39.826399",
+ "modified_by": "Administrator",
+ "module": "Safari Integrations",
+ "name": "Integrations Management",
+ "number_cards": [
+  {
+   "label": "Active API Providers",
+   "number_card_name": "Active API Providers"
+  },
+  {
+   "label": "Total API Calls Today",
+   "number_card_name": "Total API Calls Today"
+  },
+  {
+   "label": "Monthly API Costs",
+   "number_card_name": "Monthly API Costs"
+  },
+  {
+   "label": "Companies with Access",
+   "number_card_name": "Companies with Access"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New API Provider",
+   "link_to": "API Provider",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Company API Access",
+   "link_to": "Company API Access",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Integrations Management"
+}

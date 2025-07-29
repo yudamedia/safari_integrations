@@ -1,0 +1,59 @@
+
+{
+ "actions": [],
+ "creation": "2025-01-28 10:00:00.000000",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "alert_type",
+  "threshold_percentage",
+  "notification_method",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "alert_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Alert Type",
+   "options": "Quota Warning\nQuota Exceeded\nCost Warning\nCost Exceeded",
+   "reqd": 1
+  },
+  {
+   "fieldname": "threshold_percentage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Threshold %",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notification_method",
+   "fieldtype": "Select",
+   "default": "Email",
+   "label": "Notification Method",
+   "options": "Email\nSMS\nSystem Notification"
+  },
+  {
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "default": "1",
+   "in_list_view": 1,
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-28 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Safari Integrations",
+ "name": "Usage Alert",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
