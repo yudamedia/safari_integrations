@@ -1,4 +1,6 @@
-# safari_integrations/integrations/amadeus/flight_search.py
+# ~/frappe-bench/apps/safari_integrations/safari_integrations/integrations/amadeus/flight_search.py
+
+from safari_integrations.utils.api_manager import SafariAPIManager
 
 class AmadeusFlightSearch:
     def __init__(self, safari_company):

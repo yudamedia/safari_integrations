@@ -26,7 +26,7 @@
  "is_hidden": 0,
  "label": "Integrations Management",
  "links": [],
- "modified": "2025-07-29 04:57:39.826399",
+ "modified": "2025-08-01 03:51:28.531193",
  "modified_by": "Administrator",
  "module": "Safari Integrations",
  "name": "Integrations Management",
@@ -52,8 +52,13 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
- "sequence_id": 8.0,
+ "restrict_to_domain": "Safari Management",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 9.0,
  "shortcuts": [
   {
    "color": "Grey",
